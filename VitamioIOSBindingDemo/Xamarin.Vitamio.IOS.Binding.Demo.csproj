@@ -91,9 +91,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\VitamioIOSBinding\VitamioIOSBinding.csproj">
+    <ProjectReference Include="..\..\government-service\MocMLifeWin\Xamarin.Vitamio.IOS.Binding\VitamioIOSBinding\Xamarin.Vitamio.iOS.Binding.csproj">
       <Project>{046A52CD-8913-4B32-805B-B6D11E5728F7}</Project>
-      <Name>VitamioIOSBinding</Name>
+      <Name>Xamarin.Vitamio.iOS.Binding</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
